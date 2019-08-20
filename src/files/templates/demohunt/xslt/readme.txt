@@ -1,0 +1,1 @@
+Для подключения xslt-шаблона измените имена файлов на странице /admin/umiTemplates/getTemplateList/ на grid.xsl

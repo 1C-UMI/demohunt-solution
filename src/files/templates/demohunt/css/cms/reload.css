@@ -1,0 +1,88 @@
+html {
+	color: #000;
+/* устанавливаем основной цвет шрифта */
+	font-family: Trebuchet MS, helvetica, sans-serif;
+/* любимые шрифты */
+	font-size: 12px;
+/* основной размер шрифта */
+	line-height: 1.4em;
+/* межстрочное расстояние */
+	background: #FFF;
+}
+/* убираем все отступы*/
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	font-size: 100%;
+	line-height: 1.4em;
+}
+input, textarea {
+	padding: 0.2em;
+}
+img {
+  border: 0;
+	behavior: url("/templates/demohunt/css/cms/png.htc");
+}
+/* стандартное подчеркивание ссылки при больших и жирных шрифтах в IE дает линию толщиной в 2 пиксела. Мне это не нравится и поэтому я переопределяю способ подчеркивания. */
+a:link {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+/* определяем размер шрифта и отступы для заголовков */
+h1 {
+	font-size: 1.6em;
+	margin: 0 0 0.5em 0;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 0 0 0.5em 0;
+}
+h3 {
+	font-size: 1.4em;
+	margin: 0 0 0.5em 0;
+}
+h4 {
+	font-size: 1.3em;
+	margin: 0 0 0.5em 0;
+}
+h5 {
+	font-size: 1.2em;
+	margin: 0 0 0.5em 0;
+}
+h6 {
+	font-size: 1.1em;
+	margin: 0 0 0.5em 0;
+}
+/* стиль для параграфа */
+p {
+	margin: 0 0 1em 0;
+}
+/* убираем отступы у таблицы и ее ячеек */
+table {
+	border: 0;
+/* border="0" */
+	border-collapse: collapse;
+/* cellspacing="0" */
+}
+table td, th {
+	padding: 0;
+/* cellpadding="0" */
+	vertical-align: top;
+	text-align: left;
+}
+/* списки */
+ul, ol {
+	margin: 0 1em 0.7em 3em;
+}
+ul li, ol li {
+/* здесь можно поменять вид маркера */
+}
+small, sup, sub {
+	font-size: 0.8em;
+}
+big {
+	font-size: 1.2em;
+}

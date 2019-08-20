@@ -1,0 +1,176 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: black;
+	font-family: Trebuchet MS, helvetica, sans-serif;
+	font-size: 9pt;
+}
+img {
+	border: none;
+}
+a {
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+img.png {
+	behavior: url(/templates/demohunt/css/cms/png.htc);
+}
+
+#main {
+	width: 996px;
+	left: 50%;
+	margin: 0 0 0 -498px;
+	position: relative;
+}
+
+#main #header {
+	width: 996px;
+	height: 176px;
+	text-align: left;
+	background: black url(/templates/demohunt/images/header_bg.png) top right no-repeat;
+}
+#main #header div {
+	width: 996px;
+	padding-top: 32px;
+	background: url(/templates/demohunt/images/logo_bg.png) top left no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=img/logo_bg.png),sizingMethod=scale);
+}
+
+#main #ms {
+	width: 996px;
+	text-align: left;
+	background: black url(/templates/demohunt/images/menu_bg.png) repeat-x;
+	height: 27px;
+}
+
+#main #page {
+	background: url(/templates/demohunt/images/center_bg.png) white;
+	padding: 20px 0 0 0;
+	width: 996px;
+}
+#main #page a {
+	color: #ff7700!important;
+}
+#main #page .header {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+#main #page #right {
+	width: 285px;
+	float: right;
+	margin: 0;
+}
+
+#main #page #content {
+	margin: 0 285px 0 30px;
+	padding-bottom: 30px;
+}
+#main #page #content a {
+	color: black;
+}
+
+#main #page #content .left {
+	float: left;
+	width: 310px;
+	margin: 0 0 30px 0px;
+}
+#main #page #content  blockquote {
+	margin: 12px;
+	padding: 0 12px 0 12px;
+	border-left: 3px solid #ff7700;
+}
+
+#main #page #content .center {
+	margin: 0 0 0px 310px;
+	padding: 0;
+}
+#main #page #content .center dl dt {
+	width: 65px;
+	float: left;
+}
+#main #page #content .center dl dd {
+	margin-left: 65px;
+}
+#main #page #content .center #gratitude {
+	margin: 0 30px;
+}
+#main #page #content .center #gratitude a {
+	color: #ff7700;
+	padding-left: 5px;
+}
+#main #page #content .center #gratitude .header_gratitude {
+	position: absolute;
+	padding: 5px 0 0 135px;
+}
+#main #page #content .center #gratitude .gratitude_foto {
+	text-align: center;
+	padding-right: 3px;
+}
+#main #page #content .center #gratitude .gratitude_foto img {
+	display: block;
+	padding: 1px;
+	border: 1px solid #c5c5c5;
+}
+#main #page #content .center #gratitude .gratitude_text {
+	padding: 0 0 0 5px;
+}
+#main #page #content .center #no {
+	width: 340px;
+	height: 169px;
+	position: relative;
+}
+#main #page #content .center #no_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 354px;
+	height: 169px;
+	background: url(/templates/demohunt/images/no_bg.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=img/no_bg.png),sizingMethod=scale);
+	z-index: 1;
+}
+#main #page #content .center #no ul {
+	padding: 70px 0 0 0;
+	margin: 0 0 0 40px;
+	width: 275px;
+	z-index: 10;
+	position: relative;
+}
+#main #page #content .center #no ul li {
+	width: 275px;
+}
+#main #page #content #text {
+	margin-right: 30px;
+}
+
+#main #footer {
+	height: 36px;
+	vertical-align: middle;
+	background: black url(/templates/demohunt/images/footer_bg.png) repeat-x;
+	padding: 13px 30px 0 30px;
+	color: white;
+}
+#main #footer .copyright {
+	width: 200px;
+	float: left;
+}
+#main #footer .developer {
+	text-align: right;
+}
+#main #footer img {
+	margin-top: -8px;
+}
