@@ -1,0 +1,13 @@
+<site name="demohunt" path="demohunt">
+    <title><![CDATA[Сайт компании]]></title>
+    <description><![CDATA[В основе этого простого сайта лежит функционал версии Lite на tpl и xslt-шаблонах. Исходный код шаблонов подробно откомментирован. Поэтому этот сайт, в первую очередь, будет полезен для тех, кто только собирается начать изучение UMI.CMS.]]></description>
+    <preview>http://install.umi-cms.ru/preview/demohunt.png</preview>
+    <supported-licenses>
+        <license>lite</license>
+        <license>corporate</license>
+        <license>business</license>
+        <license>shop</license>
+        <license>commerce</license>
+        <license>commerce_enc</license>
+    </supported-licenses>
+</site>
